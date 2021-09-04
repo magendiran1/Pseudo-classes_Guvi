@@ -1,0 +1,40 @@
+ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: cyan;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:active {
+    color: darkorange;
+}
+
+a:visited {
+    color: rgb(173, 224, 31)
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+span {
+    font-family: cursive;
+    font-weight: bold;
+    color: deeppink
+}
+
+li {
+    list-style: none;
+}
+
+.text {
+    text-align: center;
+}
